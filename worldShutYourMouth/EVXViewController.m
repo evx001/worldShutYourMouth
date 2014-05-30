@@ -11,6 +11,7 @@
 @interface EVXViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *inputTextField;
 
+@property (weak, nonatomic) IBOutlet UILabel *labelOutput;
 @end
 
 @implementation EVXViewController
