@@ -17,6 +17,7 @@
 @implementation EVXViewController
 - (IBAction)buttonTouched:(id)sender {
     NSLog(@"Botton Got Pressed");
+    NSLog(@"text field is: %@",self.inputTextField.text);
 }
 
 - (void)viewDidLoad
