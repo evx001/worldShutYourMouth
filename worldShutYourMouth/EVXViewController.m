@@ -18,6 +18,9 @@
 - (IBAction)buttonTouched:(id)sender {
     NSLog(@"Botton Got Pressed");
     NSLog(@"text field is: %@",self.inputTextField.text);
+    NSString *s = [NSString stringWithFormat:@"Hello %@!", self.inputTextField.text];
+    self.labelOutput.text = s;
+    
 }
 
 - (void)viewDidLoad
