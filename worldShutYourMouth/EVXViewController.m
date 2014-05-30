@@ -15,6 +15,8 @@
 @end
 
 @implementation EVXViewController
+- (IBAction)buttonTouched:(id)sender {
+}
 
 - (void)viewDidLoad
 {
