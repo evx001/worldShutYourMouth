@@ -9,6 +9,7 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *inputTextField;
 
 @end
 
