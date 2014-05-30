@@ -16,6 +16,7 @@
 
 @implementation EVXViewController
 - (IBAction)buttonTouched:(id)sender {
+    NSLog(@"Botton Got Pressed");
 }
 
 - (void)viewDidLoad
